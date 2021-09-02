@@ -26,7 +26,6 @@ namespace JogoVelha
             Button b = (Button) sender;
 
             totalClicks++;
-            lblteste.Text = totalClicks.ToString();
 
             if((jogador == "X") && b.Text == "")
             {
