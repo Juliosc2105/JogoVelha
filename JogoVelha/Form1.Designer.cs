@@ -48,7 +48,6 @@ namespace JogoVelha
             this.lblO = new System.Windows.Forms.Label();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblteste = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +58,7 @@ namespace JogoVelha
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(499, 61);
+            this.label1.Size = new System.Drawing.Size(330, 61);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jogo da Velha";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -178,7 +177,7 @@ namespace JogoVelha
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label2.Location = new System.Drawing.Point(0, 379);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(499, 77);
+            this.label2.Size = new System.Drawing.Size(330, 77);
             this.label2.TabIndex = 10;
             // 
             // label3
@@ -267,21 +266,11 @@ namespace JogoVelha
             this.panel1.Size = new System.Drawing.Size(312, 312);
             this.panel1.TabIndex = 17;
             // 
-            // lblteste
-            // 
-            this.lblteste.AutoSize = true;
-            this.lblteste.Location = new System.Drawing.Point(381, 126);
-            this.lblteste.Name = "lblteste";
-            this.lblteste.Size = new System.Drawing.Size(35, 13);
-            this.lblteste.TabIndex = 18;
-            this.lblteste.Text = "label6";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 456);
-            this.Controls.Add(this.lblteste);
+            this.ClientSize = new System.Drawing.Size(330, 456);
             this.Controls.Add(this.lblO);
             this.Controls.Add(this.lblEmpate);
             this.Controls.Add(this.lblX);
@@ -328,7 +317,6 @@ namespace JogoVelha
         private System.Windows.Forms.Label lblO;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblteste;
     }
 }
 

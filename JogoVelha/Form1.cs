@@ -84,7 +84,16 @@ namespace JogoVelha
         }
         private void limpatela()
         {
-
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = "";
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+            totalClicks = 0;
         }
     }
 }
